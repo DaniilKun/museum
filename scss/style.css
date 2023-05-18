@@ -1,0 +1,483 @@
+body {
+  background-color: #156f1b;
+  width: 3840px;
+  height: 2160px;
+}
+
+.section {
+  position: absolute;
+  background-color: #fef5e0;
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 3028px;
+  background-color: white;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  width: 1008px;
+  height: 456px;
+}
+
+.logo img {
+  width: 770.88px;
+  height: 194.31px;
+  margin: 112.07px 111.27px 149.62px 125.84px;
+}
+
+.img_fon {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
+
+.basic {
+  background-color: #fffaee;
+}
+
+.teatr {
+  display: contents;
+}
+
+.teatr img {
+  width: 1009.69px;
+  height: 1474px;
+  position: relative;
+  z-index: 1;
+}
+
+button {
+  background: #efc26d;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.4);
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: "Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 91px;
+  /* identical to box height */
+  color: #181e21;
+}
+
+.btn_grib {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 1757px;
+  top: 625px;
+  text-align: end;
+  padding-right: 62px;
+}
+
+button span {
+  width: 602px;
+  display: inline-block;
+  text-align: center;
+}
+
+.griboedov {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 1579px;
+  top: 520px;
+}
+
+.btn_gog {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 2050px;
+  top: 825px;
+  text-align: left;
+  padding-left: 52px;
+}
+
+.gogol {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 2919px;
+  top: 720px;
+}
+
+.btn_shil {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 1757px;
+  top: 1025px;
+  text-align: end;
+  padding-right: 62px;
+}
+
+.shil {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 1579px;
+  top: 920px;
+}
+
+.btn_sheks {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 2050px;
+  top: 1225px;
+  text-align: left;
+  padding-left: 52px;
+}
+
+.sheks {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 2919px;
+  top: 1144px;
+}
+
+.btn_ostrov {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 1757px;
+  top: 1425px;
+  text-align: end;
+  padding-right: 62px;
+}
+
+.ostrov {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 1579px;
+  top: 1320px;
+}
+
+.btn_push {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 2050px;
+  top: 1625px;
+  text-align: left;
+  padding-left: 52px;
+}
+
+.push {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 2919px;
+  top: 1520px;
+}
+
+.help {
+  position: absolute;
+  width: 815px;
+  height: 137px;
+  left: 157px;
+  top: 2022px;
+  font-family: "Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 39px;
+  text-align: center;
+  color: #2355d7;
+}
+
+.gaz {
+  top: 92.82%;
+  position: absolute;
+  left: 18.8%;
+}
+
+.code {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 3244px;
+  top: 1972px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.body {
+  background-color: #156f1b;
+  width: 3840px;
+  height: 2160px;
+}
+
+.section_push {
+  position: absolute;
+  background-image: url(../img/pushkin/fon_push.svg);
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  position: absolute;
+  width: 1552px;
+  height: 242px;
+  left: 1648px;
+  top: 169px;
+  font-family: "Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 111px;
+  line-height: 123px;
+  text-align: center;
+}
+
+.btns {
+  position: absolute;
+  width: 893px;
+  height: 1322px;
+  left: 463px;
+  top: 554px;
+  overflow: hidden;
+}
+
+#godunov {
+  width: 893px;
+  height: 139px;
+  margin-bottom: 96px;
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #be9446;
+}
+
+.info_title {
+  position: absolute;
+  width: 1310px;
+  height: 79px;
+  left: 1746px;
+  top: 475px;
+  font-family: "Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+  padding: 19px;
+  border-bottom: 1px solid black;
+}
+
+.info_text {
+  position: absolute;
+  width: 1801px;
+  height: 960px;
+  left: 1525px;
+  top: 619px;
+  font-family: "Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  color: #000000;
+}
+
+.exit {
+  position: absolute;
+  width: 366px;
+  height: 139px;
+  left: 2241px;
+  top: 1975px;
+  background: #FFFFFF;
+  border: 4px solid #C9C9C9;
+  border-radius: 30px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 74px;
+  text-align: center;
+  color: #C9C9C9;
+}
+
+.exit:hover {
+  background-color: #433f3f;
+}
+
+.section_gog {
+  background-image: url(../img/gogol/fon_gogol.png);
+  position: absolute;
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section_shill {
+  background-image: url(../img/shiller/fon_shil.png);
+  position: absolute;
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section_shek {
+  background-image: url(../img/shekspir/fon_sheks.png);
+  position: absolute;
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section_ostrov {
+  background-image: url(../img/ostrovski/fon_ostrovski.png);
+  position: absolute;
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-strelka img {
+  position: absolute;
+  width: 137.81px;
+  height: 88.02px;
+  left: 843.52px;
+  top: 1841px;
+  transform: rotate(-3deg);
+}
+
+.slider_btns {
+  overflow: hidden;
+  position: absolute;
+  width: 893px;
+  height: 1276px;
+  left: 463px;
+  top: 554px;
+}
+
+.btns_ostrov {
+  position: absolute;
+  width: 893px;
+  height: 1276px;
+}
+
+.section_grib {
+  background-image: url(../img/griboedov/fon_griboedov.png);
+  position: absolute;
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info_title_grib {
+  position: absolute;
+  width: 1310px;
+  height: 115px;
+  left: 1769px;
+  top: 398px;
+  font-family: "Ceremonious One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 121px;
+  line-height: 141px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.info_text_grib {
+  position: absolute;
+  width: 1801px;
+  height: 1316px;
+  left: 1525px;
+  top: 562px;
+  font-family: "Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-indent: 50px;
+  color: #000000;
+}
+
+@font-face {
+  font-family: "Ceremonious One";
+  src: url("../fonts/ceremonious-one/ceremonious-one.eot");
+  src: url("../fonts/ceremonious-one/ceremonious-one.eot?#iefix") format("embedded-opentype"), url("../fonts/ceremonious-one/ceremonious-one.otf") format("opentype"), url("../fonts/ceremonious-one/ceremonious-one.svg") format("svg"), url("../fonts/ceremonious-one.ttf") format("truetype"), url("../fonts/ceremonious-one/ceremonious-one.woff") format("woff"), url("../fonts/ceremonious-one/ceremonious-one.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}/*# sourceMappingURL=style.css.map */

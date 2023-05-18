@@ -1,0 +1,101 @@
+.body {
+  background-color: #156f1b;
+  width: 3840px;
+  height: 2160px;
+}
+.section_push {
+
+  position: absolute;
+  background-image: url(../img/pushkin/fon_push.svg);
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  flex-wrap: wrap;
+  // align-items: center;
+  justify-content: center;
+}
+.title{
+  position: absolute;
+width: 1552px;
+height: 242px;
+left: 1648px;
+top: 169px;
+font-family: 'Bodoni';
+font-style: normal;
+font-weight: 400;
+font-size: 111px;
+line-height: 123px;
+text-align: center;
+}
+.btns{
+  position: absolute;
+    width: 893px;
+    height: 1322px;
+    left: 463px;
+    top: 554px;
+    overflow: hidden;
+}
+
+#godunov{
+  // background-image: url(../img/pushkin/godunov.png);
+  width: 893px;
+height: 139px;
+margin-bottom: 96px;
+display: flex;
+align-items: center;
+// background-color: antiquewhite;
+}
+button:hover{
+  background-color: #be9446;
+}
+.info_title{
+  position: absolute;
+  width: 1310px;
+  height: 79px;
+  left: 1746px;
+  top: 475px;
+  font-family: 'Bodoni';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+  padding: 19px;
+  border-bottom: 1px solid black;
+}
+.info_text{
+  position: absolute;
+width: 1801px;
+height: 960px;
+left: 1525px;
+top: 619px;
+
+font-family: 'Bodoni';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 53px;
+
+color: #000000;
+}
+.exit{
+  position: absolute;
+width: 366px;
+height: 139px;
+left: 2241px;
+top: 1975px;
+background: #FFFFFF;
+border: 4px solid #C9C9C9;
+border-radius: 30px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 74px;
+text-align: center;
+color: #C9C9C9;
+}
+.exit:hover{
+background-color: #433f3f;
+}

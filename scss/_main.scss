@@ -1,0 +1,192 @@
+body {
+  background-color: #156f1b;
+  width: 3840px;
+  height: 2160px;
+}
+.section {
+
+  position: absolute;
+  background-color: #fef5e0;
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 3028px;
+  background-color: white;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+.header {
+  display: flex;
+}
+.logo {
+  width: 1008px;
+  height: 456px;
+}
+.logo img {
+  width: 770.88px;
+  height: 194.31px;
+  margin: 112.07px 111.27px 149.62px 125.84px;
+}
+.img_fon {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
+.basic {
+  background-color: #fffaee;
+}
+.teatr {
+  display: contents;
+}
+.teatr img {
+  width: 1009.69px;
+  height: 1474px;
+  position: relative;
+  z-index: 1;
+}
+button {
+  background: #efc26d;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.4);
+  border-radius: 40px;
+cursor: pointer;
+  font-family: "Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 91px;
+  /* identical to box height */
+
+  color: #181e21;
+}
+.btn_grib {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 1757px;
+  top: 625px;
+  text-align: end;
+  padding-right: 62px;
+}
+
+button span {
+  width: 602px;
+  display: inline-block;
+  text-align: center;
+}
+.griboedov {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 1579px;
+  top: 520px;
+}
+.btn_gog {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 2050px;
+  top: 825px;
+  text-align: left;
+  padding-left: 52px;
+}
+.gogol {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 2919px;
+  top: 720px;
+}
+.btn_shil {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 1757px;
+  top: 1025px;
+  text-align: end;
+  padding-right: 62px;
+}
+.shil {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 1579px;
+  top: 920px;
+}
+.btn_sheks {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 2050px;
+  top: 1225px;
+  text-align: left;
+  padding-left: 52px;
+}
+.sheks {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 2919px;
+  top: 1144px;
+}
+.btn_ostrov {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 1757px;
+  top: 1425px;
+  text-align: end;
+  padding-right: 62px;
+}
+.ostrov {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 1579px;
+  top: 1320px;
+}
+.btn_push {
+  position: absolute;
+  width: 1062px;
+  height: 145px;
+  left: 2050px;
+  top: 1625px;
+  text-align: left;
+  padding-left: 52px;
+}
+.push {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  left: 2919px;
+  top: 1520px;
+}
+.help {
+  position: absolute;
+  width: 815px;
+  height: 137px;
+  left: 157px;
+  top: 2022px;
+  font-family: "Bodoni";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #2355d7;
+}
+.gaz{
+  top: 92.82%;
+  position: absolute;
+left: 18.8%;
+}
+.code{
+  position: absolute;
+width: 150px;
+height: 150px;
+left: 3244px;
+top: 1972px;
+}

@@ -1,0 +1,45 @@
+
+
+.section_grib{
+  background-image: url(../img/griboedov/fon_griboedov.png);
+  position: absolute;
+
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  flex-wrap: wrap;
+  // align-items: center;
+  justify-content: center;
+}
+.info_title_grib{
+  position: absolute;
+  width: 1310px;
+  height: 115px;
+    left: 1769px;
+    top: 398px;
+  
+  font-family: 'Ceremonious One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 121px;
+  line-height: 141px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  
+}
+.info_text_grib{
+  position: absolute;
+  width: 1801px;
+  height: 1316px;
+  left: 1525px;
+  top: 562px;
+  
+  font-family: 'Bodoni';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-indent: 50px;
+
+  color: #000000;
+}

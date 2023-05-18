@@ -1,0 +1,37 @@
+.section_ostrov{
+  background-image: url(../img/ostrovski/fon_ostrovski.png);
+  position: absolute;
+
+  width: 3840px;
+  height: 2160px;
+  display: flex;
+  flex-wrap: wrap;
+  // align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+}
+.btn-strelka img{
+  position: absolute;
+    width: 137.81px;
+    height: 88.02px;
+    left: 843.52px;
+    top: 1841px;
+    transform: rotate(-3deg);
+}
+.slider_btns{
+  overflow: hidden;
+  position: absolute;
+  width: 893px;
+  height: 1276px;
+  left: 463px;
+  top: 554px;
+}
+.btns_ostrov{
+  position: absolute;
+    width: 893px;
+    height: 1276px;
+   
+
+}
